@@ -1,0 +1,82 @@
+{
+  "httpMappings": [ ],
+  "featureToggles": {
+    "demowait_feature_b": false,
+    "demowait_feature_c": true,
+    "demowait_feature_a": true,
+    "demowait_fature_d": false
+  },
+  "name": "cadmin",
+  "title": "Admin",
+  "localization": "~/app/cadmin/web",
+  "module": "adp.ds.commadmin",
+  "environment": "origin-static-dev",
+  "exceptionLog": [
+    "console",
+    "server"
+  ],
+  "dependencies": [
+    "grid",
+    "tab",
+    "iam",
+    "eis",
+    "pis",
+    "dsso",
+    "dms",
+    "quoteAdmin",
+    "cds",
+    "ccsAdmin",
+    "runCredit",
+    "commonAdminCreditSettings",
+    "connectedStoreAdmin",
+    "dealAdmin",
+    "lotMerchandiserAdmin",
+    "commonAdminHostSettings",
+    "transformsAdmin",
+    "cfquoteAdmin",
+    "leadAdmin"
+  ],
+  "routes": "adp.ds.commadmin.routes",
+  "path": "commadmin/adp.ds.commadmin",
+  "cacheBusters": {
+    "app/cadmin/web/i18n/en_US": {
+      "ext": "json",
+      "hash": "c32c4c4e"
+    },
+    "app/cadmin/web/css/adp.ds.commadmin.style.min": {
+      "ext": "css",
+      "hash": "737bb37e"
+    },
+    "app/cadmin/web/config/app.conf": {
+      "ext": "json",
+      "hash": "6dc7dc17"
+    },
+    "app/cadmin/web/adp.ds.commadmin": {
+      "ext": "js",
+      "hash": "494745f2"
+    },
+    "app/cadmin/web/i18n/en_CA": {
+      "ext": "json",
+      "hash": "cf85aed6"
+    },
+    "app/cadmin/web/css/adp.ds.commadmin.style": {
+      "ext": "css",
+      "hash": "975f2891"
+    },
+    "app/cadmin/web/i18n/fr_CA": {
+      "ext": "json",
+      "hash": "a5b39bf6"
+    },
+    "app/cadmin/web/adp.ds.commadmin.min": {
+      "ext": "js",
+      "hash": "1c14dbd1"
+    }
+  },
+  "requirejs": {
+    "paths": {
+      "commadmin/adp.ds.commadmin": "app/cadmin/web/adp.ds.commadmin",
+      "commadmin": "app/cadmin/web",
+      "adp.ds.commadmin.style": "app/cadmin/web/css/adp.ds.commadmin.style"
+    }
+  }
+}
