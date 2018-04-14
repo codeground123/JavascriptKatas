@@ -21,4 +21,5 @@ function findMissingLetter(array) {
 return res;
 
 }
-findMissingLetter(['a', 'b', 'd','f']);
+var res = findMissingLetter(['a', 'b', 'd','f',  'i']);
+console.log(res);

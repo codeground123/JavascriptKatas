@@ -19,5 +19,5 @@ var res = [];
     return firstWord+res.join('');
 }
 
-var res = toCamelCase("");
+var res = toCamelCase("the_stealth_warrior");
 console.log(res);
